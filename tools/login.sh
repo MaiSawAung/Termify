@@ -1,8 +1,11 @@
-#!/usr/bin/env bash
-#/data/data/com.termux/files/usr/bin/env bash
-
+# Modified Lock
 # Author : xShin
 # GitHub : https://github.com/xshin404
+# Author : AyeSpacey
+# GitHub : https://github.com/AyeSpacey
+
+#!/usr/bin/env bash
+#/data/data/com.termux/files/usr/bin/env bash
 
 RED="\e[91m"
 YELLOW="\e[93m"
@@ -59,36 +62,6 @@ while true; do
         sleep 2s
         clear
       fi
-
-      # Hidden Password
-  #      echo -n "Password: "
-  #      read -s -r password
-
-  #      if [[ "$password" == "$pass" ]]; then
-           
-  #          echo -e ""
-  #          echo -e "\nStatus:$GREEN Success Login.$DEFAULT"
-  #          sleep 2s
-  #          clear
-
-            # if [ ! -d ~/.scripts/pid ]; then
-
-            #     mkdir ~/.scripts/pid
-
-            # fi
-
-            # echo $$ >> ~/.scripts/pid/login
-  #          break
-
-  #      else
-
-  #          echo -e ""
-  #          echo -e "status   :$RED Wrong Password.$DEFAULT"
-  #          sleep 2s
-  #          clear
-
-  #      fi
-
     else
 
         echo -e ""

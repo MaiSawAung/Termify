@@ -1,3 +1,7 @@
+# Zshrc
+# Author : AyeSpacey
+# GitHub : https://github.com/AyeSpacey
+
 export USER=Ayesumit
 export HOSTNAME=Note-10
 export HDIR=/sdcard/$USER
@@ -22,7 +26,7 @@ lsd
 
 source $ZSH/oh-my-zsh.sh
 
-#files and dirs
+#Files and Dirs
     alias ls="lsd"
     alias la="lsd -a"
     alias tt="lsd --tree"
@@ -52,18 +56,13 @@ source $ZSH/oh-my-zsh.sh
     alias extr="tar xf"
     alias compr="tar -cvf"
 
-#Exits and locks
+#Exits
     alias q="exit"
-    alias user="nvim ~/.scripts/login.sh"
 
 
-#echo -e "\e[2 q"
-
-#cursor underline
-#echo -e "\e[4 q"
-
-#cursor pipe
-echo -e "\e[6 q"
+#echo -e "\e[2 q"    #cursor block
+#echo -e "\e[4 q"    #cursor underline
+echo -e "\e[6 q"     #cursor pipe
 
 
 # HYPHEN_INSENSITIVE="true"

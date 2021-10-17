@@ -1,5 +1,5 @@
-# Termify-Termux
-🔮 Casting a Beautified Frog Your Termux Shell.. 
+# Termify
+🔮 Eyecandy For Your Shell Your Termux Shell.. 
 
 ### for zsh
 ```bash

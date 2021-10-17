@@ -1,3 +1,7 @@
+# Modified (rxfetch)
+# Author : AyeSpacey
+# GitHub : https://github.com/AyeSpacey
+
 #!/usr/bin/bash
 
 #colors
@@ -104,7 +108,4 @@ echo -e "  /_/  |_/____/	     ${c2}init${c0}         ${c2}$(get_init)${c0}"
 echo -e "●                 ●  ${c4}rom${c0}      ${c4}$storageused / $storageavail${c0}"
 echo ""
 echo -e "${c8}Github${c0} ☆ ${c2}ayeSpacey${c0}               ${c8}AyeSumit${c0}"
-echo ""
-cd $HDIR
-lsd
 echo ""
