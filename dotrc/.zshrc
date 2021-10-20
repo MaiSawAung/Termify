@@ -1,4 +1,4 @@
-# Zshrc
+# Zshrc  (depreciated)
 # Author : AyeSpacey
 # GitHub : https://github.com/AyeSpacey
 

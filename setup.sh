@@ -6,9 +6,8 @@
 
 echo "Adding Colors"
 sleep 1
-echo "Adding zshrc, initrc"
+echo "Adding bashrc, initrc"
 
-termux-setup-storage
 rm -rf ~/.termux ~/.zshrc ~/.bashrc
 mv dotrc/* $HOME
 
@@ -16,4 +15,4 @@ chmod +x tools/*
 mv tools/* $PREFIX/bin
 
 sleep 1
-echo "🔮 Exit Open Termux"
+echo "🔮 Reload Your Terminal !"
