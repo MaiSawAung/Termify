@@ -1,5 +1,5 @@
 # Termify
-🔮 Eyecandy For Your Shell Your Termux Shell.. 
+🔮 Eyecandy For Your Shell.. 
 
 ### for zsh
 ```bash
